@@ -53,7 +53,7 @@ Some tools spend from the user's plan. Never call them without a clear **yes** t
 | Tool | What it spends | Ask like this |
 |---|---|---|
 | `analyze_video(url)` | One analysis from their plan allowance | "Analyse these 3 videos? That uses 3 analyses from your plan: <links>" |
-| `get_cut_brief(job_id, cut)` (new brief) | **2 credits** per new cut brief | "Make the cut brief for cut 2? A new brief costs 2 credits." |
+| `get_cut_brief(job_id, cut)` (new brief) | Credits per new cut brief: quote the amount the tool reports, never a remembered number | "Make the cut brief for cut 2? A new brief costs [amount the tool shows] credits; reopening it later is free." |
 | `get_cut_brief` (reopen) | Free when `list_cuts` shows `brief_ready: true` | No spend. Just reopen it. |
 | `build_cuts(job_id)` | No credits, but paid plans only | "Build the cuts for this analysis? It's included in paid plans." |
 
@@ -128,7 +128,7 @@ opening → decision. If you only have a pasted script, critique it as a script 
 
 **D. Production handoff**
 Intake (deadline, crew, budget) → `get_report(job_id)` → `list_cuts(job_id)` (if cuts aren't built: *`build_cuts`*, paid plans) →
-`get_cut(job_id, cut)` → reopen ready briefs for free, or *`get_cut_brief`* for a new one (2 credits) →
+`get_cut(job_id, cut)` → reopen ready briefs for free, or *`get_cut_brief`* for a new one (credits: quote the tool) →
 `get_cast(job_id)` + `get_sound(job_id)` + `list_assets(job_id)` → in-chat shot list, casting and location
 needs, narration and sound notes, open questions → decision → optional *board save*. A brief is a plan for
 their own production. It gives no rights to the reference's footage, music or likeness.
