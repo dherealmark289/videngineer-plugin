@@ -1,0 +1,30 @@
+{
+  "name": "videngineer",
+  "displayName": "VidEngineer",
+  "version": "1.1.0",
+  "description": "Decide what video to make next. A video strategist that studies the right references and gives you one recommendation, with evidence and a next test.",
+  "author": {
+    "name": "VidEngineer",
+    "url": "https://videngineer.com"
+  },
+  "homepage": "https://videngineer.com/mcp",
+  "repository": "https://github.com/dherealmark289/videngineer-plugin",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "video strategy",
+    "video analysis",
+    "ad research",
+    "creative brief",
+    "storyboard",
+    "pre-production",
+    "shot list"
+  ],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": {
+    "videngineer": {
+      "url": "https://mcp.videngineer.com/mcp"
+    }
+  }
+}
