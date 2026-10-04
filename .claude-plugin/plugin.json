@@ -1,8 +1,8 @@
 {
   "name": "videngineer",
   "displayName": "VidEngineer",
-  "version": "1.0.0",
-  "description": "Break down any video scene by scene \u2014 cuts, hook, transcript and sound \u2014 and plan your own from it.",
+  "version": "1.1.0",
+  "description": "Decide what video to make next. A video strategist that studies the right references and gives you one recommendation, with evidence and a next test.",
   "author": {
     "name": "VidEngineer",
     "url": "https://videngineer.com"
@@ -11,6 +11,7 @@
   "license": "MIT",
   "keywords": [
     "video",
+    "video strategy",
     "video analysis",
     "ad research",
     "creative brief",

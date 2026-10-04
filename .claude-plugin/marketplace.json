@@ -1,6 +1,6 @@
 {
   "name": "videngineer",
-  "description": "VidEngineer for Claude Code: break down any video and plan your own.",
+  "description": "VidEngineer for Claude Code: decide what video to make next.",
   "owner": {
     "name": "VidEngineer"
   },
@@ -8,7 +8,7 @@
     {
       "name": "videngineer",
       "source": "./",
-      "description": "Break down any video scene by scene and plan your own from it."
+      "description": "Decide what video to make next: study the right references and get one clear recommendation."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "videngineer",
-  "version": "1.0.0",
-  "description": "Break down any video scene by scene and plan your own from it.",
+  "version": "1.1.0",
+  "description": "Decide what video to make next: study the right references and get one clear recommendation, with evidence and a next test.",
   "author": {
     "name": "VidEngineer",
     "url": "https://videngineer.com"
@@ -11,6 +11,7 @@
   "license": "MIT",
   "keywords": [
     "video",
+    "video strategy",
     "video analysis",
     "ad research",
     "creative brief",
@@ -22,8 +23,8 @@
     "com.openai": {
       "interface": {
         "displayName": "VidEngineer",
-        "shortDescription": "Break down any video",
-        "longDescription": "VidEngineer is a video research and pre-production tool. This plugin connects your existing VidEngineer workspace so you can study videos and plan your own in conversation instead of opening the app.\n\nBreak down a video\nPaste a link from YouTube, TikTok, Vimeo or X, or a direct video file. VidEngineer maps it scene by scene: every cut, the hook, the transcript, who is on screen, the voice, the music and the sound effects. A breakdown takes about a minute and a half. You can check on it while it runs and open the full report when it is done.\n\nPlan your own video\nTurn a breakdown into cut briefs and a cut list for your own product. Ask what makes a cut work and how to adapt its structure to your brand, your footage and your message.\n\nMake your own version\nUse a breakdown as the blueprint for your own video. Pull the full structure of a breakdown into the conversation and build your version from it: the script, the shot list and the prompts for each shot, made with your own product, footage and message.\n\nWork on a canvas\nCreate a planning board, add frames, notes and references, and open boards you have already made. Boards are saved in your workspace, so your team sees the same plan in the app.\n\nFind past work\nList your breakdowns, assets and folders, and pick up where you left off.\n\nHow it works\nVidEngineer runs every breakdown on its own servers and stores your breakdowns, cut briefs and canvases in your own VidEngineer workspace. This plugin is a first-party interface to that product, not a generic pass-through layer. Starting a breakdown fetches the video from the link you provide, and that tool is labelled as such. Deleting a board is labelled as destructive, and boards can be restored in the app. You sign in with your existing VidEngineer account over OAuth. Reading your library, starting breakdowns, writing cut briefs and editing canvases are separate permissions that you grant individually, and you can disconnect at any time.",
+        "shortDescription": "Decide what to make next",
+        "longDescription": "VidEngineer helps you decide what video to make next. Tell it what you are launching, who it is for and what you can shoot, and it studies the right references and gives you one clear recommendation, the evidence behind it and the next thing to test.\n\nStart from your goal\nA built-in video strategist asks a few short questions first: your goal, audience, format, deadline, what you can shoot and what you have already tried. It searches your own VidEngineer Library before anything else, then offers relevant videos from VidEngineer's public study library when you have nothing that fits. It tells you which videos are already analysed and which would need a new analysis, and asks before it uses anything from your plan.\n\nStudy the references\nPaste links from YouTube, TikTok, Instagram, Vimeo, X, Google Drive (shared) or a direct video file. VidEngineer maps each video scene by scene: every cut, the hook, the transcript, who is on screen, the voice, the music and the sound effects. An analysis takes about a minute and a half.\n\nGet a decision, not a pile of notes\nEvery job ends with a recommendation, the options it rejected and why, the evidence with links, what would change the call, and the next test. Plan a launch film, study five competitor ads, compare two openings, critique your draft, compare your winners with your losers, or hand a reference to production as a shot list and cut briefs.\n\nKeep the plan\nOn paid plans, save the plan to a VidEngineer board and pick it up later in the app or in conversation. Every result links back to VidEngineer so you can open it in the app.\n\nHow it works\nVidEngineer runs every analysis on its own servers and stores your analyses, cut briefs and boards in your own VidEngineer workspace. This plugin is a first-party interface to that product, not a generic pass-through layer. Starting an analysis fetches the video from the link you provide, and that tool is labelled as such. Deleting a board is labelled as destructive, and boards can be restored in the app. You sign in with your existing VidEngineer account over OAuth. Reading your library, starting analyses, writing cut briefs and editing boards are separate permissions that you grant individually, and you can disconnect at any time.",
         "developerName": "VidEngineer",
         "category": "Productivity",
         "capabilities": [
@@ -34,9 +35,9 @@
         "privacyPolicyURL": "https://videngineer.com/privacy",
         "termsOfServiceURL": "https://videngineer.com/terms",
         "defaultPrompt": [
-          "Break down this ad and tell me why the first three seconds work: ",
-          "Turn this launch video into a shot-by-shot brief for my own product",
-          "Show my latest breakdowns and open the canvas for the newest one"
+          "I'm launching [product] in three weeks. What film should I make?",
+          "Study these five competitor ads and tell me which angle we should test first: ",
+          "Critique my draft before launch. What should I fix first? "
         ],
         "brandColor": "#17141F",
         "composerIcon": "./assets/icon.png",
