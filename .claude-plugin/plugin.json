@@ -1,0 +1,21 @@
+{
+  "name": "videngineer",
+  "displayName": "VidEngineer",
+  "version": "1.0.0",
+  "description": "Break down any video scene by scene \u2014 cuts, hook, transcript and sound \u2014 and plan your own from it.",
+  "author": {
+    "name": "VidEngineer",
+    "url": "https://videngineer.com"
+  },
+  "homepage": "https://videngineer.com/mcp",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "video analysis",
+    "ad research",
+    "creative brief",
+    "storyboard",
+    "pre-production",
+    "shot list"
+  ]
+}

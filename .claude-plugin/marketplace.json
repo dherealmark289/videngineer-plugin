@@ -1,0 +1,14 @@
+{
+  "name": "videngineer",
+  "description": "VidEngineer for Claude Code: break down any video and plan your own.",
+  "owner": {
+    "name": "VidEngineer"
+  },
+  "plugins": [
+    {
+      "name": "videngineer",
+      "source": "./",
+      "description": "Break down any video scene by scene and plan your own from it."
+    }
+  ]
+}
