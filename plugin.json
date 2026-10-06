@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "videngineer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Decide what video to make next: study the right references and get one clear recommendation, with evidence and a next test.",
   "author": {
     "name": "VidEngineer",
@@ -24,7 +24,7 @@
       "interface": {
         "displayName": "VidEngineer",
         "shortDescription": "Decide what to make next",
-        "longDescription": "VidEngineer helps you decide what video to make next. Tell it what you are launching, who it is for and what you can shoot, and it studies the right references and gives you one clear recommendation, the evidence behind it and the next thing to test.\n\nStart from your goal\nA built-in video strategist asks a few short questions first: your goal, audience, format, deadline, what you can shoot and what you have already tried. It searches your own VidEngineer Library before anything else, then offers relevant videos from VidEngineer's public study library when you have nothing that fits. It tells you which videos are already analysed and which would need a new analysis, and asks before it uses anything from your plan.\n\nStudy the references\nPaste links from YouTube, TikTok, Instagram, Vimeo, X, Google Drive (shared) or a direct video file. VidEngineer maps each video scene by scene: every cut, the hook, the transcript, who is on screen, the voice, the music and the sound effects. An analysis takes about a minute and a half.\n\nGet a decision, not a pile of notes\nEvery job ends with a recommendation, the options it rejected and why, the evidence with links, what would change the call, and the next test. Plan a launch film, study five competitor ads, compare two openings, critique your draft, compare your winners with your losers, or hand a reference to production as a shot list and cut briefs.\n\nKeep the plan\nOn paid plans, save the plan to a VidEngineer board and pick it up later in the app or in conversation. Every result links back to VidEngineer so you can open it in the app.\n\nHow it works\nVidEngineer runs every analysis on its own servers and stores your analyses, cut briefs and boards in your own VidEngineer workspace. This plugin is a first-party interface to that product, not a generic pass-through layer. Starting an analysis fetches the video from the link you provide, and that tool is labelled as such. Deleting a board is labelled as destructive, and boards can be restored in the app. You sign in with your existing VidEngineer account over OAuth. Reading your library, starting analyses, writing cut briefs and editing boards are separate permissions that you grant individually, and you can disconnect at any time.",
+        "longDescription": "VidEngineer is a video analysis and pre-production planning tool. It breaks any supported video down scene by scene and turns what it finds into a creative brief, a shot list and a planning board, so you can decide what video to make next.\n\nStart from your goal\nA built-in video strategist asks a few short questions first: your goal, audience, format, deadline, what you can shoot and what you have already tried. It searches your own VidEngineer library before anything else, then offers relevant videos from VidEngineer's public study library when you have nothing that fits. It tells you which videos are already analyzed and which would need a new analysis, and asks before starting one.\n\nStudy the references\nPaste links from YouTube, TikTok, Instagram, Vimeo, X, Google Drive (shared) or a direct video file. VidEngineer maps each video scene by scene: every cut, the hook, the transcript, who is on screen, the voice, the music and the sound effects. An analysis takes about a minute and a half.\n\nGet a decision, not a pile of notes\nEvery job ends with a recommendation, the options it rejected and why, the evidence with links, what would change the call, and the next test. Plan a launch film, study five competitor ads, compare two openings, critique your draft, compare your winners with your losers, or hand a reference to production as a shot list and cut briefs.\n\nKeep the plan\nSave the plan to a VidEngineer board and pick it up later in the app or in conversation. Every result links back to VidEngineer so you can open it in the app.\n\nHow it works\nVidEngineer runs every analysis on its own servers and stores your analyses, cut briefs and boards in your own VidEngineer workspace. This plugin is a first-party interface to that product, not a generic pass-through layer. Starting an analysis fetches the video from the link you provide, and that tool is labelled as such. Deleting a board is labelled as destructive, and boards can be restored in the app. You sign in with your existing VidEngineer account over OAuth. Reading your library, starting analyses, writing cut briefs and editing boards are separate permissions that you grant individually, and you can disconnect at any time.",
         "developerName": "VidEngineer",
         "category": "Productivity",
         "capabilities": [
@@ -41,7 +41,8 @@
         ],
         "brandColor": "#17141F",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/logo.png"
+        "logo": "./assets/logo.png",
+        "supportURL": "https://videngineer.com/support"
       }
     }
   }
